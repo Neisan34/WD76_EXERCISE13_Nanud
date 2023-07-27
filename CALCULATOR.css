@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #c2bebe; /* Light gray background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  min-height: 100vh; /* Ensure the content takes at least the full viewport height */
+}
+
+/* Form Styles */
+label {
+  font-weight: bold;
+  font-size: 24px; /* Increase the font size to make the labels bigger */
+  width: 100%;
+}
+
+#converter {
+  max-width: 800px; /* Increase the max-width to make the calculator wider */
+  border: 1px solid #8b8888;
+  padding: 30px; /* Increase the padding to create more space inside the container */
+  background-color: #4B88A2; /* Light gray background for the converter container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+#result {
+  font-size: 24px; /* Increase the font size for the result text */
+  margin-top: 20px; /* Increase the margin for better spacing */
+  color: #0e0f10; /* Blue color for the result text */
+}
+
+/* Dropdown Styles */
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Option Styles */
+select option {
+  font-size: 16px;
+  background-color: #f5f3f3;
+  color: #333;
+}
+
+/* Input Styles */
+input#value {
+  width: 50%;
+  padding: 10px; /* Increase the padding to make the input field taller */
+  font-size: 20px; /* Increase the font size to make the text bigger */
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+button {
+  background-color: #252627; /* Blue background for buttons */
+  color: #ffffff; /* White text color for buttons */
+  border: none;
+  padding: 16px 32px; /* Increase the padding to make buttons larger */
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+  border-radius: 4px; /* Add a slight border radius for a softer look */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+button:hover {
+  background-color: #6d7c8e; /* Darker blue on hover */
+}
