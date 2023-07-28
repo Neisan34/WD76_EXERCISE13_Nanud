@@ -33,20 +33,4 @@
       const convertedValue = value * units[fromUnit] / units[toUnit];
       return convertedValue.toFixed(2);
     }
-// Custom dropdown functionality
-const customDropdowns = document.querySelectorAll('.custom-dropdown');
 
-customDropdowns.forEach((dropdown) => {
-  const label = dropdown.querySelector('.dropdown-label');
-  const options = dropdown.querySelector('.dropdown-options');
-
-  label.addEventListener('click', () => {
-    dropdown.classList.toggle('open');
-  });
-
-  options.addEventListener('click', (event) => {
-    const selectedValue = event.target.getAttribute('data-value');
-    label.textContent = event.target.textContent;
-    dropdown.classList.remove('open');
-  });
-});
